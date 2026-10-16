@@ -1,0 +1,6 @@
+{
+  "name": "DrishtiPath AI",
+  "description": "Every Path, Within Reach. Real-time assistive camera object detection with bilingual Telugu and English voice alerts for visually impaired individuals.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

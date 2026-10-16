@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  /* High accessibility focus rings */
+  *:focus-visible {
+    outline: 3px solid #facc15 !important;
+    outline-offset: 3px !important;
+  }
+
+  body {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    overscroll-behavior-y: contain;
+  }
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.94;
+    transform: scale(0.995);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 2.5s infinite ease-in-out;
+}
